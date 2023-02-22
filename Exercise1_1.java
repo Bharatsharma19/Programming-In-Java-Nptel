@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Exercise1_1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
-        double radius = sc.nextDouble();
+        double radius = s.nextDouble();
         double perimeter;
         double area;
 
@@ -14,7 +14,7 @@ public class Exercise1_1 {
         // Calculate the area
         area = perimeter * radius;
 
-        System.out.println("Perimeter : " + perimeter);
-        System.out.println("Area : " + area);
+        System.out.println(perimeter);
+        System.out.println(area);
     }
 }
